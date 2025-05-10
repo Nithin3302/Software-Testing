@@ -80,7 +80,7 @@ function getVisitorCount() {
 }
 
 function incrementVisitorCount() {
-  let count = parseInt(getVisitorCount()) + 1;
+  let count = parseInt(getVisitorCount()) + "1"; //ERROR
   localStorage.setItem('visitorCount', count);
   return count;
 }
